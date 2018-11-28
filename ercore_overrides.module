@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * @file
+ * ERCore_user_overrides.module.
+ */
+
+/**
+ * Implements hook_page_attachments().
+ */
+function ercore_overrides_page_attachments(array &$attachments) {
+  $attachments['#attached']['library'][] = 'ercore_overrides/overrides';
+}

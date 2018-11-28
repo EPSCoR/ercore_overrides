@@ -1,0 +1,20 @@
+{
+  "name": "epscor/ercore_overrides",
+  "description": "Customizations of the ERCore module unique to the install.",
+  "type": "drupal-module",
+  "license": "GPL-2.0+",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    }
+  ],
+  "require": {
+    "drupal/ercore": "^1.0@beta"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "sort-packages": true
+  }
+}

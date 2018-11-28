@@ -1,0 +1,5 @@
+.node-ercore-publication-edit-form .field--name-field-ercore-programs,
+.node-ercore-publication-edit-form .field--name-field-ercore-components {
+    position: absolute;
+    left: -9999px;
+}
